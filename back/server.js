@@ -9,7 +9,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 // for the error of nodemailer
-NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 // Connection To Db
 connectToDb();
 
