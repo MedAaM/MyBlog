@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const request = axios.create({
-    baseURL: "http://localhost:8000"
+    baseURL: "my-blog-two-xi.vercel.app"
 });
 
 export default request;
