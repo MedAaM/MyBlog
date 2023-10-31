@@ -42,6 +42,7 @@ app.use(cors({
 }));
 
 // Routes
+app.use("/", res.send('hello'));
 app.use("/api/auth", require("./route/authRoute"));
 app.use("/api/users", require("./route/usersRoute"));
 app.use("/api/posts", require("./route/PostRoute"));
